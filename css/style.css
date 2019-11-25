@@ -1,0 +1,120 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+
+}
+    /**/
+
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px){
+        .classes .grid-2 {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+        }
+        .container {
+            width: 100%;
+        }
+
+    }
+        /**/
+
+
+        /* Small Devices, Tablets */
+        @media only screen and (max-width : 768px){
+            header h1 {
+                font-weight: 400;
+                font-size: 36px;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: FuturaPT,Arial,sans-serif;
+                text-shadow: #000 0 2px 0;
+                line-height: 1.17;
+                letter-spacing: .5px;
+            }
+            .classes .grid-2 {
+                margin-top: 50px;
+                display: grid;
+                grid-template-columns: repeat(1, 300px);
+            }
+        }
+            /**/
+
+
+            /* Extra Small Devices, Phones */
+            @media only screen and (max-width : 480px){
+                header h1 {
+                    font-weight: 400;
+                    font-size: 36px;
+                    color: #fff;
+                    text-transform: uppercase;
+                    font-family: FuturaPT,Arial,sans-serif;
+                    text-shadow: #000 0 2px 0;
+                    line-height: 1.17;
+                    letter-spacing: .5px;
+                }
+                .classes .grid-2 {
+                    margin-top: 50px;
+                    display: grid;
+                    grid-template-columns: repeat(1, 300px);
+                }
+                .classes span {
+                    font-size: 16px;
+                    color: #0a0a0a;
+                    font-weight: 100;
+                }
+            }
+                /**/
+
+
+                /* Custom, iPhone Retina */
+                @media only screen and (max-width : 320px){
+                    .classes .grid-2 {
+                        margin-top: 50px;
+                        display: grid;
+                        grid-template-columns: repeat(1, 248px);
+                    }
+                    header .logo {
+                        margin-top: 100px;
+                        width: 63%;
+                    }
+                }
+                    /**/
+
+
+                    /*==========  Mobile First  ==========*/
+
+                    /* Custom, iPhone Retina */
+                    @media only screen and (min-width : 320px){
+
+                    }
+                        /**/
+
+
+                        /* Extra Small Devices, Phones */
+                        @media only screen and (min-width : 480px){
+
+                        }
+                            /**/
+
+
+                            /* Small Devices, Tablets */
+                            @media only screen and (min-width : 768px){
+
+                            }
+                                /**/
+
+
+                                /* Medium Devices, Desktops */
+                                @media only screen and (min-width : 992px){
+
+                                }
+                                    /**/
+
+
+                                    /* Large Devices, Wide Screens */
+                                    @media only screen and (min-width : 1200px){
+
+                                    }
+/**/
